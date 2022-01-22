@@ -4,7 +4,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 
 const initialState = {
-  msg: { title: 'Hello', body: 'English Message' },
+  msg: { title: 'Akwaaba', body: 'Akan Greetings' },
 };
 
 const rootReducer = (state = initialState, action) => {

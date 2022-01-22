@@ -14,9 +14,9 @@
 
 ## About Project
 
-This is practice project on working with Ruby on Rails and React together. In this project I have implemented the frontend with React-Redux. This backend is front-end only.
+This is practice project on working with Ruby on Rails and React together. In this project I have implemented the frontend with React-Redux. This repo is front-end only.
 [Back-end](https://github.com/luqmanmusah/react-front-end)
-[Link to the BACKEND part of this project.](https://github.com/luqmanmusah/react-back-end)
+[Link to the BACKEND part of this project.](https://github.com/luqmanmusah/hello-rails-react2)
 
 <!-- ![screenshot](./screenshot.png) -->
 

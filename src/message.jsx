@@ -31,7 +31,7 @@ const Message = (props) => {
       </h2>
       <button type="button" className="getMessageBtn" onClick={() => dispatch(getRandomMsg())}> Get Random Message</button>
       <h2>
-        The Message from store is
+        The Greeting from Ghana is
         {' '}
         {message.title}
         .

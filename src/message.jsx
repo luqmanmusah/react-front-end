@@ -25,7 +25,7 @@ const Message = (props) => {
   return (
     <div>
       <h2>
-        The Message from props is
+        The Greeting from Ghana is
         {' '}
         {msg}
       </h2>

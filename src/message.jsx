@@ -13,7 +13,7 @@ const getRandomMsgSuccess = (json) => ({
 // thunk
 const getRandomMsg = () => (dispacth) => {
   dispacth({ type: GET_RANDOM_MSG_REQUEST });
-  return fetch('http://[::1]:4000/api/v1/randomMessage.json')
+  return fetch('http://127.0.0.1:3000/randomMessage.json')
     .then((response) => response.json())
     .then((json) => dispacth(getRandomMsgSuccess(json)));
 };
@@ -25,7 +25,7 @@ const Message = (props) => {
   return (
     <div>
       <h2>
-        The Message from props is
+        The Greeting from Ghana is
         {' '}
         {msg}
       </h2>
@@ -33,7 +33,7 @@ const Message = (props) => {
       <h2>
         The Greeting from Ghana is
         {' '}
-        {message.title}
+        {message.text}
         .
       </h2>
     </div>
